@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Girl ♡</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="loading" id="loading">
+        <div class="loading-heart">♡</div>
+        <p>MADE WITH LOVE</p>
+        <h2>Preparing your surprise...</h2>
+        <div class="loader"><span></span></div>
+    </div>
+
+    <div id="hearts"></div>
+
+    <nav>
+        <a href="#" class="logo">my girl <span>♡</span></a>
+        <a href="#letter" class="nav-link">A little letter ↗</a>
+    </nav>
+
+    <header class="hero">
+        <p class="eyebrow">✦ A LITTLE CORNER OF MY WORLD ✦</p>
+
+        <h1>For My <span class="script">Girl</span><span class="pink">.</span></h1>
+
+        <p class="intro-text">
+            In a world full of people,<br>
+            there's something special about you.
+        </p>
+
+        <button class="main-button" id="openButton">
+            Open My Heart ♡
+        </button>
+
+        <p class="small-note">MADE ESPECIALLY FOR YOU</p>
+        <div class="circle circle-one"></div>
+        <div class="circle circle-two"></div>
+    </header>
+
+    <main>
+        <section class="section" id="gallery">
+            <p class="eyebrow">01 — LITTLE MEMORIES</p>
+            <h2>Our Little <span class="script">Gallery</span></h2>
+            <p class="section-description">
+                A few moments worth keeping forever.
+            </p>
+
+            <div class="gallery">
+                <button class="photo" data-photo="images/photo1.jpg">
+                    <img src="images/photo1.jpg" alt="Memory one">
+                    <span>My favorite moment ♡</span>
+                </button>
+
+                <button class="photo" data-photo="images/photo2.jpg">
+                    <img src="images/photo2.jpg" alt="Memory two">
+                    <span>Little things, big feelings</span>
+                </button>
+
+                <button class="photo" data-photo="images/photo3.jpg">
+                    <img src="images/photo3.jpg" alt="Memory three">
+                    <span>You make me smile</span>
+                </button>
+
+                <button class="photo" data-photo="images/photo4.jpg">
+                    <img src="images/photo4.jpg" alt="Memory four">
+                    <span>A memory to keep ♡</span>
+                </button>
+            </div>
+
+            <p class="small-note">
+                Replace these photos with your own pictures.
+            </p>
+        </section>
+
+        <section class="section">
+            <p class="eyebrow">02 — WHY YOU?</p>
+            <h2>It's the Little <span class="script">Things</span></h2>
+
+            <div class="cards">
+                <article class="card">
+                    <div class="card-icon">♡</div>
+                    <h3>Your Smile</h3>
+                    <p>Your smile can make an ordinary day feel special.</p>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">✧</div>
+                    <h3>Your Heart</h3>
+                    <p>There is something beautiful about the person you are.</p>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">☾</div>
+                    <h3>Just You</h3>
+                    <p>You are special simply because you are yourself.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="letter-section" id="letter">
+            <div class="letter">
+                <p class="eyebrow">03 — A LETTER FOR YOU</p>
+                <div class="big-heart">♡</div>
+
+                <h2>A Little Something<br>
+                    <span class="script">From My Heart</span>
+                </h2>
+
+                <p class="letter-text">
+                    I may not always know the perfect words to say,
+                    but I hope you know how much you mean to me.
+                    You make ordinary moments feel special,
+                    and your presence brings happiness into my life.
+                    <br><br>
+                    I hope you always remember that you are appreciated,
+                    you are important, and you deserve beautiful things.
+                    <br><br>
+                    This little website is just one way of telling you
+                    that someone thinks you're special. ♡
+                </p>
+
+                <p class="signature">With love, always ♡</p>
+
+                <button class="secondary-button" id="surpriseButton">
+                    One More Surprise ✨
+                </button>
+
+                <p id="surpriseMessage" class="surprise-message" hidden>
+                    If I could choose a favorite person all over again,
+                    I'd still be happy to meet you. ♡
+                </p>
+            </div>
+        </section>
+
+        <section class="section music-section">
+            <p class="eyebrow">04 — OUR LITTLE SOUNDTRACK</p>
+            <h2>A Song for <span class="script">You</span></h2>
+            <p class="section-description">
+                A little music for this little moment.
+            </p>
+
+            <div class="music-player">
+                <div class="music-art">♫</div>
+
+                <div class="music-details">
+                    <strong>Our Little Song</strong>
+                    <span>Dedicated to you ♡</span>
+                </div>
+
+                <button id="musicButton" class="play-button"
+                    aria-label="Play music">▶</button>
+            </div>
+
+            <audio id="music" src="music.mp3" loop></audio>
+
+            <p class="small-note">
+                Add your audio file named music.mp3 to the main folder.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-heart">♡</div>
+        <p>Some things are better said with love.</p>
+        <span>MADE WITH LOVE, JUST FOR YOU</span>
+    </footer>
+
+    <div class="lightbox" id="lightbox">
+        <button id="closeLightbox" aria-label="Close photo">×</button>
+        <img id="lightboxImage" src="" alt="Selected memory">
+    </div>
+
+</body>
+</html>
